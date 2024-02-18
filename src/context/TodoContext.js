@@ -3,8 +3,8 @@ export const TodoContext = createContext({
     todos: [
         {
             id: 2,
-            todoMsg: 'Todo Message',
-            status: false
+            todo: 'Todo Message',
+            completed: false
         },
         addTodo = (todo) => { },
         updateTodo = (id, todo) => { },
